@@ -42,5 +42,16 @@
     },
     "config": {
         "sort-packages": true
+    },
+     "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "therealsmat\\Ebulksms\\EbulkSmsServiceProvider"
+            ],
+            "aliases": {
+                "Ebulksms": "therealsmat\\Ebulksms\\Facades\\Ebulksms"
+            }
+        }
     }
 }
