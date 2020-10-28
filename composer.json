@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "~5.6|~7.0",
+         "php": "~5.6|~7.0",
         "guzzlehttp/guzzle": "^6.3",
         "illuminate/support": "~5.1"
     },
@@ -41,6 +41,6 @@
         "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
     },
     "config": {
-        "sort-packages": true,
+        "sort-packages": true
     }
 }
